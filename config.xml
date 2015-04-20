@@ -1,0 +1,100 @@
+﻿<config>
+ 
+   <defaultJsfl>fileOp</defaultJsfl>
+   <vesion>vesion:2013-3-23</vesion>
+  <root>
+    <item>
+     <label>[0] 查询WindowSwf路径</label>
+     <fun >printWindowSWFPath</fun >
+	 <isuse>0</isuse>
+	 <fileName></fileName> 
+   </item> 
+   <item>
+     <label>[1] 导入一张图片 </label>
+     <fun >importOneImage</fun>
+	 <isuse>0</isuse> 
+	 <fileName> </fileName> 
+   </item>
+    
+   <item>
+     <label>[2] 导入文件夹图片到库 </label>
+     <fun >browImageFile</fun >
+	 <isuse>0</isuse> 
+	 <fileName></fileName> 
+   </item>
+    <item>
+     <label>[3] 给全部图片添加as链接 </label>
+     <fun >addAllImagAsLink</fun >
+	  <isuse>0</isuse> 
+	   <fileName> </fileName> 
+   </item>
+ <item>
+     <label>[4] 取消全部图片添加as链接 </label>
+     <fun >canelAsImgLink</fun >
+	  <isuse>0</isuse> 
+	   <fileName> </fileName> 
+   </item>
+ <item>
+     <label>[5] 图片转换MC并添加As链接(图片没勾选As链接情况)</label>
+     <fun >converToMovieClip</fun >
+	 <isuse>0</isuse> 
+	 <fileName> </fileName> 
+   </item>
+ <item>
+     <label>[6] 导入一张图片并添加As链接</label>
+     <fun >importImageAndLink </fun >
+	 <isuse>0</isuse> 
+	 <fileName> </fileName> 
+   </item>
+ <item>
+     <label>[7] 导入一张图片并转换MC并添加As链接 </label>
+     <fun >addImageToMcAndLink</fun >
+	  <isuse>0</isuse> 
+	   <fileName> </fileName> 
+   </item>
+ <item>
+     <label>[8] 一键导入图片转换MC并添加As链接</label>
+     <fun > importImageToMc</fun >
+	 <isuse>0</isuse> 
+	 <fileName> </fileName> 
+   </item>
+   <item>
+     <label>[9] 删除所有库元件</label>
+     <fun >delectLib</fun >
+	 <isuse>0</isuse>
+	 <fileName></fileName> 
+   </item>
+   
+   <item>
+     <label>[10] 删除所有库影片剪辑</label>
+     <fun >delectAllMoviClip</fun >
+	 <isuse>0</isuse>
+	 <fileName> </fileName> 
+   </item> 
+      <item>
+     <label>[11] 删除所有库位图</label>
+     <fun >delectAllBitmap</fun >
+	 <isuse>0</isuse>
+	 <fileName> </fileName> 
+   </item>
+     <item>
+     <label>[12] 导出swf</label>
+     <fun >saveSwf</fun >
+	 <isuse>0</isuse>
+	 <fileName> </fileName> 
+   </item>  
+   <item>
+     <label>[13] 批量导出SWC</label>
+     <fun >browMyFile</fun >
+	 <isuse>0</isuse>
+	 <fileName> </fileName> 
+   </item>  
+   
+  <item>
+     <label>[14] 九宫快速分组</label>
+     <fun >scale9</fun >
+	 <isuse>0</isuse>
+	 <fileName> </fileName> 
+   </item>  
+     </root>
+</config>
